@@ -46,7 +46,7 @@
       <squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" label="Header Content: {collection.title}" />
     </div>
 
-    <p>Hello, World! Make a change! Test. </p>
+    <p>Hello, World! Make a change! Test. SYNCED!!</p>
 
     <section id="page" role="main" data-content-field="main-content">
       <!-- CATEGORY NAV -->
