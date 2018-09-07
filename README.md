@@ -4,9 +4,9 @@
 
 This is a project using Squarespace local development. 
 
-The idea is a traveling photo gallery, including pictures that I have taken when traveling across the country.
+The idea is a travel photo gallery, including pictures that I have taken when traveling across the country.
 
-Tech Stack: 
+## Tech Stack: 
 - Squarespace Server / Squarespace Developer Mode 
 - LESS (styling)
 - JavaScript
