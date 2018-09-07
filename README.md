@@ -8,10 +8,12 @@ The idea is a travel photo gallery, including pictures that I have taken when tr
 
 ## Tech Stack: 
 - Squarespace Server / Squarespace Developer Mode 
-- LESS (styling)
 - JavaScript
+- LESS.js (styling)
+- HTML5
+- CSS3
 
-Wireframes:
+## Wireframes:
 
 ## Landing Page
 ![alt text](https://github.com/Dara-Sy/travel-aesthetics/blob/master/images/landing.jpg)
