@@ -45,6 +45,7 @@
     <div class="extra-wrapper page-header">
       <squarespace:block-field id="page-header-{collection.id}" description="Page Header" columns="12" label="Header Content: {collection.title}" />
     </div>
+    <p> UGH</p>
 
     <section id="page" role="main" data-content-field="main-content">
       <!-- CATEGORY NAV -->
@@ -58,30 +59,29 @@
             <li{.if categoryFilter}{.or} class="active-link all"{.end}><a href="{fullUrl}">All</a></li>
             {.repeated section @}
             <li{.equal? categoryFilter @} class="active-link"{.end}><a href="{fullUrl}?category={@|url-encode}">{@}</a></li>
+              <div class="bird-container bird-container--one">
+                <div class="bird bird--one">
+                    <p>TEST</p>
+                  </div>
+                </div>
+
+                <div class="bird-container bird-container--two">
+                  <div class="bird bird--two"></div>
+                </div>
+
+                <div class="bird-container bird-container--three">
+                  <div class="bird bird--three"></div>
+                </div>
+
+                <div class="bird-container bird-container--four">
+                  <div class="bird bird--four"></div>
+              </div>
             {.end}
           </ul>
         </nav>
       </div>
       {.end}{.end}{.end}
       {squarespace.main-content}
-
-          <p>TEST</p>
-      <div class="bird-container bird-container--one">
-        <div class="bird bird--one">
-        </div>
-      </div>
-
-      <div class="bird-container bird-container--two">
-        <div class="bird bird--two"></div>
-      </div>
-
-      <div class="bird-container bird-container--three">
-        <div class="bird bird--three"></div>
-      </div>
-
-      <div class="bird-container bird-container--four">
-        <div class="bird bird--four"></div>
-      </div>
 
     </section>
 
