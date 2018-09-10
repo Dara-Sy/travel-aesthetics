@@ -2,7 +2,9 @@
 
 ## About the Project
 
-This is a project using Squarespace local development. 
+This is a project using Squarespace local development. I am learning how to use Squarespace Developer.
+
+Official Documentation: https://developers.squarespace.com/quick-start/
 
 The idea is a travel photo gallery, including pictures that I have taken when traveling across the country.
 
